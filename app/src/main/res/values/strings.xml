@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">Retrofit+RecyclerView</string>
+    <string name="check_connection">Please check your internet connection</string>
+    <string name="id">ID: %1$s</string>
+    <string name="tag">Tags: %1$s</string>
+    <string name="issue_error_text">There was an issue. Please restart your app.</string>
 </resources>
