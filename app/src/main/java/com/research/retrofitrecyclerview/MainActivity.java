@@ -16,6 +16,8 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 import java.net.UnknownHostException;
+import java.util.ArrayList;
+import java.util.List;
 
 import retrofit2.Call;
 import retrofit2.Callback;
@@ -114,6 +116,14 @@ public class MainActivity extends AppCompatActivity {
                 usersAdapter.userListResponseData.remove(position);
                 usersAdapter.notifyItemRemoved(position);
                 usersAdapter.notifyItemRangeChanged(position, usersAdapter.getItemCount());
+            }
+
+            @Override
+            public void onLeftClicked(int position) {
+//                usersAdapter.userListResponseData.set();
+                Toast.makeText(getApplicationContext(), "UNDER DEVELOPMENT", Toast.LENGTH_SHORT).show();
+                usersAdapter.notifyItemChanged(position);
+//                usersAdapter.notifyItemRangeChanged(position, usersAdapter.getItemCount());
             }
         });
 

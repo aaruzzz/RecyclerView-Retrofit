@@ -17,7 +17,6 @@
         app:layout_constraintEnd_toStartOf="@id/submitButton"
         android:hint="@string/enter_text_to_search"
         android:autofillHints="Text to search"
-        android:text="meme"
         android:inputType="text"
         android:layout_marginHorizontal="16dp"/>
 
