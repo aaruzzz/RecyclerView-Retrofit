@@ -4,4 +4,6 @@
     <string name="id">ID: %1$s</string>
     <string name="tag">Tags: %1$s</string>
     <string name="issue_error_text">There was an issue. Please restart your app.</string>
+    <string name="enter_text_to_search">Enter text to search</string>
+    <string name="submit">Submit</string>
 </resources>
